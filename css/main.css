@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  width: 200px;
+  height: 80px;
+  margin: 20px auto;
+  display: block;
+}
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#newCard {
+  display: block;
+  margin-bottom: 10px;
+  margin: 0 auto;
+}
+
+#deleteCard {
+  display: block;
+  margin: 10px auto;
+}
+
+.card {
+  width: 30%;
+  margin: 1.5%;
+  height: 700px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.card header {
+  text-align: center;
+}
+
+.card p {
+  padding: 5px;
+}
+
+.imageContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: 300px;
+}
+
+.card footer {
+  text-align: center;
+}
+
+.yellow {
+  background: #FBF16D;
+}
+
+.blue {
+  background: #57F5FF;
+}
+
+.border {
+  border: 2px solid black;
+}
